@@ -1,0 +1,57 @@
+body{ 
+	margin:40px; 
+	background:#666; 
+}
+#my_canvas{
+	margin:0 auto;
+	background:#FFF; 
+	border:#000 1px solid; 
+}
+#text{
+	float:none; 
+	width:600px;
+}
+h1{
+	text-align:center;
+}
+video{
+    width:600px;
+	margin-right: auto; 
+	margin-left: auto;
+	text-align: center
+	
+}
+article{
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	border:solid 2px black;
+	padding:20px;
+}
+nav{
+	text-align:center;
+	margin: 0 auto;
+	text-decoration:none;
+	height:50px;
+	color:red;
+	width:1080px;
+}
+nav li{
+	
+	font:bold 18px Georgia, serif;
+	padding:10px;
+	list-style-type: none;
+	display: inline;
+	border:solid 1px black;
+	float: center;
+}
+
+
+
+/* Unvisited/visited links in horizontal bar */
+nav a:link, nav a:visited {
+   
+    color: black;
+
+}
+
